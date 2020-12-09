@@ -1,6 +1,6 @@
 world-settings:
   default:
-	max-auto-save-chunks-per-tick: 6
+    max-auto-save-chunks-per-tick: 6
     max-entity-collisions: 2
     mob-spawner-tick-rate: 2
     non-player-arrow-despawn-rate: 60
@@ -12,9 +12,9 @@ world-settings:
     container-update-tick-rate: 3
     creative-arrow-despawn-rate: 60
     disable-chest-cat-detection: "true"
-	hopper:
+    hopper:
       disable-move-event: "true"
-	despawn-ranges:
+    despawn-ranges:
       hard: 128
       soft: 32
     game-mechanics:
