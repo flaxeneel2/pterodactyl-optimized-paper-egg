@@ -3,6 +3,8 @@ settings:
 world-settings:
   default:
     arrow-despawn-rate: 300
+    mob-spawn-range: 4
+    nerf-spawner-mobs: true
     entity-activation-range:
       animals: 16
       misc: 8
@@ -15,5 +17,3 @@ world-settings:
     merge-radius:
       exp: 4
       item: 6
-    mob-spawn-range: 4
-    nerf-spawner-mobs: true
