@@ -13,6 +13,8 @@ world-settings:
     creative-arrow-despawn-rate: 60
     disable-chest-cat-detection: "true"
     grass-spread-tick-rate: 4
+    viewdistances:
+      no-tick-view-distance: 10
     hopper:
       disable-move-event: "true"
     despawn-ranges:
