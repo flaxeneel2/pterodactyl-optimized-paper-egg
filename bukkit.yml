@@ -1,0 +1,10 @@
+chunk-gc:
+  period-in-ticks: 400
+spawn-limits:
+  ambient: 1
+  animals: 8
+  monsters: 50
+  water-animals: 3
+ticks-per:
+  auto-save: 6000
+  monster-spawns: 4
