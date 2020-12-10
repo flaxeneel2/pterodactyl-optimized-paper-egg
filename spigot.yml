@@ -1,0 +1,19 @@
+settings:
+  save-user-cache-on-stop-only: true
+world-settings:
+  default:
+    arrow-despawn-rate: 300
+    entity-activation-range:
+      animals: 16
+      misc: 8
+      monsters: 24
+      raiders: 48
+      tick-inactive-villagers: false
+    max-tick-time:
+      entity: 1000
+      tile: 1000
+    merge-radius:
+      exp: 4
+      item: 6
+    mob-spawn-range: 4
+    nerf-spawner-mobs: true
