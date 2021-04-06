@@ -7,7 +7,7 @@
     "name": "Optimized Paper",
     "author": "flaxeneel2@gmail.com",
     "description": "Optimized paper being developed by flaxeneel2",
-    "features": ["eula"]
+    "features": ["eula"],
     "image": "quay.io\/pterodactyl\/core:java-11",
     "images": [
         "quay.io\/pterodactyl\/core:java-11",
