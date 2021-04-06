@@ -4,25 +4,25 @@ world-settings:
     max-entity-collisions: 2
     mob-spawner-tick-rate: 2
     non-player-arrow-despawn-rate: 60
-    optimize-explosions: "true"
-    per-player-mob-spawns: "true"
-    prevent-moving-into-unloaded-chunks: "true"
-    use-faster-eigencraft-redstone: "true"
-    armor-stands-tick: "false"
+    optimize-explosions: true
+    per-player-mob-spawns: true
+    prevent-moving-into-unloaded-chunks: true
+    use-faster-eigencraft-redstone: true
+    armor-stands-tick: false
     container-update-tick-rate: 3
     creative-arrow-despawn-rate: 60
-    disable-chest-cat-detection: "true"
+    disable-chest-cat-detection: true
     grass-spread-tick-rate: 4
     viewdistances:
       no-tick-view-distance: 10
     hopper:
-      disable-move-event: "true"
+      disable-move-event: true
     despawn-ranges:
       hard: 128
       soft: 32
     game-mechanics:
       alt-item-despawn-rate:
-        enabled: "true"
+        enabled: true
         items:
           COBBLESTONE: 300
           NETHERRACK: 300
