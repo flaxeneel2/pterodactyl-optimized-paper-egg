@@ -7,9 +7,12 @@ world-settings:
     nerf-spawner-mobs: true
     entity-activation-range:
       animals: 16
-      misc: 8
       monsters: 24
       raiders: 48
+      misc: 12
+      water: 12
+      villagers: 16
+      flying-monsters: 48
       tick-inactive-villagers: false
     max-tick-time:
       entity: 1000
@@ -17,3 +20,12 @@ world-settings:
     merge-radius:
       exp: 4
       item: 6
+    ticks-per:
+      hopper-check: 8
+      hopper-transfer: 8
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64

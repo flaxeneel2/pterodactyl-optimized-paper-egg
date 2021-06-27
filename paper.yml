@@ -13,16 +13,40 @@ world-settings:
     creative-arrow-despawn-rate: 60
     disable-chest-cat-detection: true
     grass-spread-tick-rate: 4
+    remove-corrupt-tile-entities: true
+    nether-ceiling-void-damage-height: 127
+    update-pathfinding-on-block-update: false
+    fix-climbing-bypassing-cramming-rule: true
+    armor-stands-do-collision-entity-lookups: false
+    delay-chunk-unloads-by: 15s
     viewdistances:
       no-tick-view-distance: 10
     hopper:
       disable-move-event: true
     despawn-ranges:
-      hard: 128
-      soft: 32
+      hard: 96
+      soft: 28
     game-mechanics:
       alt-item-despawn-rate:
         enabled: true
         items:
           COBBLESTONE: 300
           NETHERRACK: 300
+      entity-per-chunk-save-limit:
+        arrow: 16
+        dragonfireball: 3
+        egg: 8
+        ender_pearl: 8
+        fireball: 8
+        firework: 8
+        largefireball: 8
+        lingeringpotion: 8
+        llamaspit: 3
+        shulkerbullet: 8
+        sizedfireball: 8
+        snowball: 8
+        spectralarrow: 16
+        splashpotion: 3
+        thrownexpbottle: 3
+        trident: 16
+        witherskull: 4
