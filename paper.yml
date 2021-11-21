@@ -18,14 +18,26 @@ world-settings:
     update-pathfinding-on-block-update: false
     fix-climbing-bypassing-cramming-rule: true
     armor-stands-do-collision-entity-lookups: false
-    delay-chunk-unloads-by: 15s
+    delay-chunk-unloads-by: 10
+    tick-rates:
+      sensor:
+        villager:
+          secondarypoisensor: 80
+          nearestbedsensor: 80
+          villagerbabiessensor: 40
+          playersensor: 40
+          nearestlivingentitysensor: 40
+      behavior:
+        villager:
+          validatenearbypoi: 60
+          acquirepoi: 120
     viewdistances:
-      no-tick-view-distance: 10
+      no-tick-view-distance: 7
     hopper:
       disable-move-event: true
     despawn-ranges:
-      hard: 96
-      soft: 28
+      hard: 56
+      soft: 30
     game-mechanics:
       alt-item-despawn-rate:
         enabled: true
@@ -33,20 +45,21 @@ world-settings:
           COBBLESTONE: 300
           NETHERRACK: 300
       entity-per-chunk-save-limit:
+        experience_orb: 16
         arrow: 16
-        dragonfireball: 3
+        dragon_fireball: 3
         egg: 8
         ender_pearl: 8
+        eye_of_ender: 8
         fireball: 8
-        firework: 8
-        largefireball: 8
-        lingeringpotion: 8
-        llamaspit: 3
-        shulkerbullet: 8
-        sizedfireball: 8
+        small_fireball: 8
+        firework_rocket: 8
+        potion: 8
+        llama_spit: 3
+        shulker_bullet: 8
         snowball: 8
-        spectralarrow: 16
-        splashpotion: 3
-        thrownexpbottle: 3
+        spectral_arrow: 16
+        experience_bottle: 3
         trident: 16
-        witherskull: 4
+        wither_skull: 4
+        area_effect_cloud: 8

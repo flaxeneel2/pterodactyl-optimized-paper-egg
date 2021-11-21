@@ -3,14 +3,14 @@ settings:
 world-settings:
   default:
     arrow-despawn-rate: 300
-    mob-spawn-range: 4
+    mob-spawn-range: 2
     nerf-spawner-mobs: true
     entity-activation-range:
       animals: 16
       monsters: 24
       raiders: 48
-      misc: 12
-      water: 12
+      misc: 8
+      water: 8
       villagers: 16
       flying-monsters: 48
       tick-inactive-villagers: false
